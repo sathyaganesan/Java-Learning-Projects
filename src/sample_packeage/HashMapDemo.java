@@ -2,6 +2,8 @@ package sample_packeage;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Set;
 
 public class HashMapDemo {
@@ -28,5 +30,17 @@ public class HashMapDemo {
 //		It renders Array
 		Set entries = hm.entrySet();
 		System.out.println("Entries" + entries);
+		
+		Iterator i = entries.iterator();
+		while(i.hasNext()) {
+			Map.Entry entry = (Map.Entry) (i.next());
+			System.out.println("Key => " + entry.getKey());
+			System.out.println("Value => " + entry.getValue());
+			
+			if(entry.getKey().equals(67))
+				entry.setValue("Mani");
+				System.out.println("Entry :" +entry);
+		} 
+		System.out.println(hm);
 	}
 }
