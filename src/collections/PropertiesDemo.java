@@ -1,4 +1,4 @@
-package sample_packeage;
+package collections;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
