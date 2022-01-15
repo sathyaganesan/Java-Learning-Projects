@@ -1,0 +1,11 @@
+What is Interface?
+=> Interface is set of rules and contract.
+=> In java, we can create interface by using interface keyword.
+=> Once interface is created, we can have variables and methods inside an interface.
+=> All variables are static and final in interface.
+=> All methods are by default abstract, we don't need to give abstract keyword in method signature.
+=> Interfaces are implemented using "Implements" keyword.
+=> Java class can implement any number of interface.
+=> If we implement interface in a class, we should give definitions for all methods.
+
+=> Interface discussion is not fulfilled without discussing about Dynamic Binding.
